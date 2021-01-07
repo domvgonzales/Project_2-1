@@ -8,6 +8,11 @@ select * from team_2016;
 select * from team_2017;
 select * from team_2018;
 select * from team_2019;
+select * from gk_2015;
+select * from gk_2016;
+select * from gk_2017;
+select * from gk_2018;
+select * from gk_2019;
 select * from gk_team_2015;
 select * from gk_team_2016;
 select * from gk_team_2017;
@@ -34,7 +39,12 @@ select * from WesternConference_2019;
 -- drop table team_2017;
 -- drop table team_2018;
 -- drop table team_2019;
--- drop table gk_team_2015;
+-- drop table gk_2015;
+-- drop table gk_2016;
+-- drop table gk_2017;
+-- drop table gk_2018;
+-- drop table gk_2019;
+-- drop table gk_2015;
 -- drop table gk_team_2016;
 -- drop table gk_team_2017;
 -- drop table gk_team_2018;
@@ -49,6 +59,38 @@ select * from WesternConference_2019;
 -- drop table WesternConference_2017;
 -- drop table WesternConference_2018;
 -- drop table WesternConference_2019;
+
+-- create table gk_2015(
+-- create table gk_2016(
+-- create table gk_2017(
+-- create table gk_2018(
+create table gk_2019(
+	Rk integer,
+    Player varchar(255),
+	Nation varchar (255),
+    Pos varchar (255),
+	Squad varchar (255),
+	Age integer,
+	Born integer,
+	MP integer,
+	Starts integer,
+	Min integer,
+	Nineties decimal,
+	GA integer,
+	GA90 decimal,
+	SoTA integer,
+	Saves integer,
+	Save_pct decimal,
+	W integer,
+	D integer,
+	L integer,
+	CS integer,
+	CS_pct decimal,
+	Pkatt integer,
+	PKA integer,
+	PKsv integer,
+	PKm integer
+)
 
 -- create table gk_team_2015(
 -- create table gk_team_2016(
