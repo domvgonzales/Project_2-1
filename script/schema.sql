@@ -8,6 +8,11 @@ select * from team_2016;
 select * from team_2017;
 select * from team_2018;
 select * from team_2019;
+select * from gk_team_2015;
+select * from gk_team_2016;
+select * from gk_team_2017;
+select * from gk_team_2018;
+select * from gk_team_2019;
 select * from EasternConference_2015;
 select * from EasternConference_2016;
 select * from EasternConference_2017;
@@ -29,6 +34,11 @@ select * from WesternConference_2019;
 -- drop table team_2017;
 -- drop table team_2018;
 -- drop table team_2019;
+-- drop table gk_team_2015;
+-- drop table gk_team_2016;
+-- drop table gk_team_2017;
+-- drop table gk_team_2018;
+-- drop table gk_team_2019;
 -- drop table EasternConference_2015;
 -- drop table EasternConference_2016;
 -- drop table EasternConference_2017;
@@ -40,6 +50,32 @@ select * from WesternConference_2019;
 -- drop table WesternConference_2018;
 -- drop table WesternConference_2019;
 
+-- create table gk_team_2015(
+-- create table gk_team_2016(
+-- create table gk_team_2017(
+-- create table gk_team_2018(
+create table gk_team_2019(
+    Squad Varchar(255),
+	No_Pl integer,
+	MP integer,
+	Starts integer,
+	Min integer,
+	Nineties integer,
+	GA integer,
+	GA90 decimal,
+	SoTA integer,
+	Save integer,
+	Save_pct decimal,
+	W integer,
+	D integer,
+	L integer,
+	CS integer,
+	CS_pct decimal,
+	Pkatt integer,
+	PKA integer,
+	PKsv integer,
+	PKm integer
+)
 -- create table EasternConference_2015 (
 -- create table EasternConference_2016 (
 create table EasternConference_2017 (
