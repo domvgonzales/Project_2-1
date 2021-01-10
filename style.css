@@ -1,13 +1,18 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
+/* Style fot the website */
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
 }
 
-.bar {
-  fill: orange;
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
 }
 
-.bar:hover {
-  fill: green;
+/* Style for figure*/
+#big{
+    margin-left:100px;
 }
