@@ -1,5 +1,8 @@
 ## Project 2
 
-Please Check [here](https://mlsprediction.herokuapp.com) to see the visualization site.
+### Visualization Site
+Please Click the figure to enter the visualization site.
+[![cover](img/cover.png?raw=true)](https://mlsprediction.herokuapp.com)
 
-Please Check [here](https://github.com/changrita1114/Project_2/blob/main/Project2_slide.pdf) to see the slide shows.
+### Slide shows
+Please Click [here](https://github.com/changrita1114/Project_2/blob/main/Project2_slide.pdf) to see the slide shows.
