@@ -3,21 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>MLS Data Analysis</title>
-
-  <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-    crossorigin="" />
-  <!-- Our CSS -->
-  <link rel="stylesheet" type="text/css" href="style1.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Winner Teams VS Loser Teams </title>
+  <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+  <link rel="stylesheet" href="bar3.css">
   <link rel="stylesheet" href="style.css">
-  <!-- Leaflet JS -->
-  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
-    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-    crossorigin=""></script>
-  <!-- D3 CDN -->
-  <script src="https://d3js.org/d3.v4.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -32,7 +23,6 @@
 </head>
 
 <body>
-  <!-- nav bar -->
   <nav class=" navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-lg-0 ">
     <a class="navbar-brand" href="home.html">MLS Prediction</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -64,11 +54,8 @@
   <br>
   <br>
   <br>
-  <!-- The div where we will inject our map -->
-  <div id="map"></div>
-  <!-- JS -->
-  <script type="text/javascript" src="logic.js"></script>
-
+  <div id="myDiv"></div>
+  <script src="bar3.js"></script>
 </body>
 
 </html>
