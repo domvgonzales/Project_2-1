@@ -1,7 +1,7 @@
 ## Project 2
 
 ### Visualization Site
-Please Click the figure to enter the visualization site.
+Please click the figure to enter the visualization site.
 [![cover](static/img/cover.png)](https://mlspredictions.herokuapp.com)
 
 ### Slide shows
