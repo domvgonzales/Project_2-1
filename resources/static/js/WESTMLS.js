@@ -1,5 +1,5 @@
 function buildPlot(){
-    d3.csv("MLSTEAMWEST.csv").then(function(westData){
+    d3.csv("resources/data/projection_data/MLSTEAMWEST.csv").then(function(westData){
       console.log(westData);
       westData.forEach(function(data){
         console.log(data);

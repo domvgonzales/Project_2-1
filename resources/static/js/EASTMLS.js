@@ -1,6 +1,6 @@
 
 function buildPlot(){
-    d3.csv("MLSTEAMEAST.csv").then(function(eastData){
+    d3.csv("resources/data/projection_data/MLSTEAMEAST.csv").then(function(eastData){
       console.log(eastData);
       eastData.forEach(function(data){
         console.log(data);
