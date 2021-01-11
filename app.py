@@ -3,6 +3,7 @@ from flask import Flask, render_template
 
 app = Flask("app")
 
+
 @app.route('/')
 def home():
     return render_template("home.html")
@@ -46,6 +47,7 @@ def bracker():
 @app.route('/contributors')
 def contributor():
     return render_template('contributor.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
