@@ -7,15 +7,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bracket Predictions</title>
   <!-- CSS style sheet -->
-  <link rel="stylesheet" href="resources/static/css/style.css">
+  <link rel="stylesheet" href="static/style.css">
   <!-- D3.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
   <!-- Plotly.js -->
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <!-- jquery -->
-  <script type="text/javascript" src="resources/static/js/jquery-3.5.1.js"></script>
-  <script type="text/javascript" src="resources/static/js/jquery.bracket.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="resources/static/css/jquery.bracket.min.css" />
+  <script type="text/javascript" src="static/jquery-3.5.1.js"></script>
+  <script type="text/javascript" src="static/jquery.bracket.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="static/jquery.bracket.min.css" />
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -29,7 +29,7 @@
 
 <body>
   <nav class=" navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-lg-0">
-    <a class="navbar-brand" href="home.html">MLS Predictions</a>
+    <a class="navbar-brand" href="/">MLS Predictions</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
       aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -41,17 +41,17 @@
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
             aria-expanded="false">Data Visualization</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="leaflet.html">Winning Percentage & Attendance</a>
-            <a class="dropdown-item" href="bar_1.html">Best Goalkepper</a>
-            <a class="dropdown-item" href="bar_2.html">Top Scorers</a>
-            <a class="dropdown-item" href="bar_3.html">Team Comparisons</a>
-            <a class="dropdown-item" href="eastern.html">Eastern Conference Projections</a>
-            <a class="dropdown-item" href="western.html">Western Conference Projections</a>
-            <a class="dropdown-item" href="bracket.html">Bracket Predictions</a>
+            <a class="dropdown-item" href="/attendance">Winning Percentage & Attendance</a>
+            <a class="dropdown-item" href="/bestGoalkeeper">Best Goalkepper</a>
+            <a class="dropdown-item" href="/topScorers">Top Scorers</a>
+            <a class="dropdown-item" href="/teamComparisons">Team Comparisons</a>
+            <a class="dropdown-item" href="/easternConference">Eastern Conference Projections</a>
+            <a class="dropdown-item" href="/westernConference">Western Conference Projections</a>
+            <a class="dropdown-item" href="/bracketPredictions">Bracket Predictions</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contributor.html">Contributors</a>
+          <a class="nav-link" href="/contributors">Contributors</a>
         </li>
       </ul>
     </div>
@@ -63,7 +63,7 @@
   <div id="big">
     <div class="demo"></div>
   </div>
-  <script src="resources/static/js/bracket.js"></script>
+  <script src="static/bracket.js"></script>
 </body>
 
 </html>

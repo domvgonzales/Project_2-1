@@ -1,5 +1,5 @@
 function buildPlot(){
-    d3.csv("resources/data/projection_data/MLSTEAMWEST.csv").then(function(westData){
+    d3.csv("static/MLSTEAMWEST.csv").then(function(westData){
       console.log(westData);
       westData.forEach(function(data){
         console.log(data);
@@ -14,10 +14,7 @@ function buildPlot(){
         data.SL = +data.SL;
         data.COL = +data.COL;
         data.MIN = +data.MIN;
-        data.LAFC = +data.LAFC;
-        
-        
-        
+        data.LAFC = +data.LAFC;       
       });
       var DAL = [
         westData[0].DAL,
@@ -250,9 +247,7 @@ function buildPlot(){
             type: "linear"
           }
         };
-        Plotly.newPlot("plot", data, layout);
-
-    
+        Plotly.newPlot("plot", data, layout);  
 })
 }
 buildPlot()
